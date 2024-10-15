@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <%- include("_header.ejs") %>
+    <main>
+        <section id="hero" class="hero">
+            <h1>
+                <span>Your Trusted Car Servicing Partner</span>
+                <span>Certified Technicians</span>
+            </h1>
+
+            <p>We understand how important it is to keep your car in a perfect condition</p>
+            <p class="Phone">Phone <a href="+254719250361">+254719250361</a></p>
+            <a href="/contact" class="cta-link">Contact Us</a>
+            <div class="socials">
+                <a href="/https://x.com" target="_blank"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a><!-- blank means it will open on another tab -->
+                <a href="/https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+                <a href="/https://instagram.com" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                <a href="/https://linkedLn.com" target="_blank"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+            </div>
+        </section>
+        <section class="packages" id="packages"></section>
+        <section class="services" id="services"></section>
+        <section class="testimonials" id="testimonials"></section>
+    </main>
+    <%- include("_footer.ejs") %>
+</body>
+</html>
