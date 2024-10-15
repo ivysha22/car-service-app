@@ -107,10 +107,6 @@ section
     margin-top: 40px;
     
 }
-.cta-link:hover{
-    
-}
-
 footer{
     padding: var(--section-padding);
     text-align: center;
